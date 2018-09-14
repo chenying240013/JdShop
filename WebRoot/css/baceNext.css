@@ -1,0 +1,335 @@
+@charset "UTF-8";
+/*top-nav部分start*/
+	.jsFortop-nav {
+		position: relative;
+	}
+	.tobejing:hover .ulThemove {
+		display: block;
+	}
+	
+	.tobejing:hover .jsTN1{
+		background-color: white;
+		border: 1px solid #ccc;
+		border-bottom: none;
+		z-index: 100;
+	}
+	.ulThemove {
+		padding: 10px;
+		width: 300px;
+		height: 330px;
+		background-color: white;
+		z-index: 2;
+		position: absolute;
+		left: 200px;
+		border: 1px solid #ccc;
+		top: 30px;
+		display: none;
+	}
+	.top-navCitys {
+		height: 24px;
+		line-height: 24px;
+		width: 60px;
+		padding: 2px 0px;
+		float: left;
+		
+	}
+	.top-navCitys-a {
+		padding: 4px 8px;
+		color: #999;;
+	}
+	.top-navCitys-a:hover {
+		background-color:#F4F4F4;
+	}
+	.top-navCitys-beijing {
+		height: 24px;
+		width: 60px;
+		padding: 2px 0px;
+		float: left;
+		line-height: 24px;
+		
+	}
+	.top-navCitys-abeijing {
+		background-color: #f10215;
+		padding: 4px 8px;
+		color: white;
+	}
+	.top-navOverseas {
+		height: 120px;
+		margin: 10px 8px 10px 8px;
+		position: relative;
+		border-top: 1px solid #F0F3EF;
+	}
+	.top-OverseasUp {
+		height: 24px;
+		margin: 9px 0px;
+	}
+	.top-OverseasDown-box {
+		width: 140px;
+		margin-bottom: 4px;
+		height: 26px;
+		float: left;
+		line-height: 26px;
+	}
+	.TOB-i {
+		height: 16px;
+		margin-right: 5px;
+		margin-top: 4px;
+		width: 16px;
+		display: block;
+		overflow: hidden;
+		position: relative;
+		float: left;
+	}
+	.TOB-img1 {
+		position: relative;
+	    left: -108px;
+	    top: -151px;
+	}
+	.TOB-img2 {
+		position: relative;
+		left: -168px;
+		top: -151px;
+	}
+	.TOB-img3 {
+		position: relative;
+		left: -148px;
+		top: -151px;
+	}
+	.TOB-img4 {
+		position: relative;
+		left: -128px;
+		top: -151px;
+	}
+	.TOB-img5 {
+		position: relative;
+		left: -108px;
+		top: -168px;
+	}
+	.top-myjd {
+		position: relative;
+		z-index: 100;
+		padding: 0 10px;
+		height: 28px;
+		line-height: 28px;
+	}
+	.my-jd {
+		padding: 10px;
+		width: 280px;
+		height: 140px;
+		background-color: white;
+		z-index: 2;
+		position: absolute;
+		left: 0px;
+		border: 1px solid #ccc;
+		top: 30px;
+		display: none;
+	}
+	.fore-myjd:hover .top-myjd {
+		background-color: white;
+		border: 1px solid #ccc;
+		border-bottom: none;
+		z-index: 100;
+		padding-bottom: 2px;
+	}
+	.fore-myjd:hover .my-jd {
+		display: block;
+	}
+	.myjd-up {
+		padding-bottom: 10px;
+		border-bottom: 1px solid #F0F3EF;
+		width: 280px;
+		height: 72px;
+	}
+	.myjd-down {
+		height: 48px;
+		width: 280px;
+		padding-top: 5px;
+	}
+	.myjd-upbox {
+		width: 140px;
+		height: 24px;
+		margin: 1px 0px;
+		color: #999999;
+		float: left;
+		line-height: 24px;
+	}
+	
+	.myjd-upbox:hover {
+		color: #E33333;
+		cursor: pointer;
+	}
+	.firm-shopboxs:hover {
+		color: #E33333;
+		cursor: pointer;
+	}
+	.firm-shop {
+		padding: 10px;
+		width: 134px;
+		height: 48px;
+		background-color: white;
+		z-index: 2;
+		position: absolute;
+		left: 0px;
+		border: 1px solid #ccc;
+		top: 30px;
+		display: none;
+	}
+	.firm-shopboxs {
+		width: 67px;
+		height: 24px;
+		margin: 1px 0px;
+		color: #999999;
+		float: left;
+		line-height: 24px;
+	}
+	.fore-firmShop:hover .top-myjd {
+		background-color: white;
+		border: 1px solid #ccc;
+		border-bottom: none;
+		z-index: 100;
+		padding-bottom: 2px;
+	}
+	.fore-firmShop:hover .firm-shop {
+		display: block;
+	}
+	.fore-A-Service:hover .top-myjd {
+		background-color: white;
+		border: 1px solid #ccc;
+		border-bottom: none;
+		z-index: 100;
+		padding-bottom: 2px;
+	}
+	.fore-A-Service:hover .A-Service {
+		display: block;
+	}
+	.A-Service {
+		padding: 10px;
+		width: 150px;
+		height: 230px;
+		background-color: white;
+		z-index: 2;
+		position: absolute;
+		left: -102px;
+		border: 1px solid #ccc;
+		top: 30px;
+		display: none;
+	}
+	.A-Serviceup {
+		height: 120px;
+		padding-bottom: 10px;
+		border-bottom:1px solid #ccc;
+	}
+	.A-ServiceHead {
+		width: 150px;
+		height: 24px;
+		line-height: 24px;
+		float: left;
+		font-weight: 700;
+	}
+	.A-ServiceBody {
+		width: 75px;
+		height: 24px;
+		margin: 1px 0px;
+		color: #999999;
+		float: left;
+		line-height: 24px;
+	}
+	.webLead {
+		width: 1170px;
+		height: 160px;
+		padding: 10px;
+		background-color: white;
+		z-index: 2;
+		position: absolute;
+		right: -79px;
+		border: 1px solid #ccc;
+		top: 30px;
+		display: none;	
+	}
+	.fore-webLead:hover .top-myjd {
+		background-color: white;
+		border: 1px solid #ccc;
+		border-bottom: none;
+		z-index: 100;
+		padding-bottom: 2px;
+	}
+	.fore-webLead:hover .webLead {
+		display: block;
+	}
+	.webLeadLE {
+		width: 340px;
+		height: 160px;
+		float: left;
+		padding-left: 10px;
+	}
+	.webLeadRI {
+		border-left:1px solid #ccc;
+		padding-left: 19px;
+		width: 252.5px;
+		height: 160px;
+		float: left;
+	}
+	.webLeadLhead {
+		width: 340px;
+		height: 24px;
+		line-height: 24px;
+		float: left;
+		font-weight: 700;
+		color: black;
+	}
+	.webLeadBody {
+		width: 84px;
+		height: 24px;
+		margin: 1px 0px;
+		color: #999999;
+		float: left;
+		line-height: 24px;
+	}
+	.webLeadMhead {
+		width: 252.5px;
+		height: 24px;
+		line-height: 24px;
+		float: left;
+		font-weight: 700;
+		color: black;
+	}
+/*top-nav部分end*/
+
+/*二三级菜单*/
+	.jdgood2and3 {
+		height: 398px;
+		padding: 50px 30px 30px 30px;
+		width: 760px;
+		z-index: 20;
+		position: absolute;
+		left: 102%;
+		top: 0;
+		background-color: white;
+		border: 1px solid #ccc;
+		box-shadow: 0px 2px 2px #c3c3c3;
+		display: none;
+	}
+	.jdgood2andjd3 {
+		width: 100%;
+		height: auto;
+	}
+	.togood2and3:hover .jdgood2and3{
+		display: block;
+	}
+	.jdgood2 {
+		width: 80px;
+		
+	}
+	.jdgood2-text {
+		text-align: center;
+		line-height: 16px;
+		height: 32px;
+		font-weight: 700;
+		float: left;
+		width: 80px;
+	}
+	.jdgood3 {
+		float: left;
+		margin: 0 8px;
+		line-height: 16px;
+	}

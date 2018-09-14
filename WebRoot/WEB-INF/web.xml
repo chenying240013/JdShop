@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>JD</display-name>
+	
+	<welcome-file-list>
+		
+		<welcome-file>index.jsp</welcome-file>
+	       
+	</welcome-file-list>        
+	      
+  <servlet>      
+    <servlet-name>CategoryServlet</servlet-name>
+    <servlet-class>com.servlet.CategoryServlet</servlet-class>
+  </servlet>                      
+                
+  <servlet>     
+    <servlet-name>JdgoodServlet</servlet-name>
+    <servlet-class>com.servlet.JdgoodServlet</servlet-class>
+  </servlet>   
+              
+  <servlet>      
+    <servlet-name>Jdgood2Servlet</servlet-name>
+    <servlet-class>com.servlet.Jdgood2Servlet</servlet-class>
+  </servlet>
+  
+  <servlet>    
+    <servlet-name>Jdgood3Servlet</servlet-name>
+    <servlet-class>com.servlet.Jdgood3Servlet</servlet-class>
+  </servlet>  
+  
+  <servlet>
+		<servlet-name>UserProductServlet</servlet-name>
+		<servlet-class>com.servlet.UserProductServlet</servlet-class>
+  </servlet>
+    
+  <servlet>
+		<servlet-name>JdadminServlet</servlet-name>
+		<servlet-class>com.servlet.JdadminServlet</servlet-class>
+  </servlet>
+  
+  <servlet> 
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.servlet.LoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+	<description>
+	</description>
+	<display-name>IndexActionServlet</display-name>
+	<servlet-name>IndexActionServlet</servlet-name>
+	<servlet-class>com.servlet.IndexActionServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+	 <servlet-name>IndexActionServlet</servlet-name>
+	 <url-pattern>/IndexActionServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	<servlet-name>JdproductServlet</servlet-name>
+	<servlet-class>com.servlet.JdproductServlet</servlet-class>
+	<init-param>
+		<param-name>productImageUploadPath</param-name>
+		<param-value>D:\Workspaces\MyEclipse 2017 CI\JDCY\WebRoot\MyJdImg</param-value>
+	</init-param>
+  </servlet> 
+  
+  <servlet>
+    <servlet-name>JDDispatcherServlet</servlet-name>
+    <servlet-class>com.servlet.JDDispatcherServlet</servlet-class>
+  </servlet>
+
+  
+  <servlet-mapping> 
+    <servlet-name>CategoryServlet</servlet-name>
+    <url-pattern>/CategoryServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping> 
+    <servlet-name>JdgoodServlet</servlet-name>
+    <url-pattern>/JdgoodServlet</url-pattern>
+  </servlet-mapping>
+    
+   <servlet-mapping> 
+    <servlet-name>Jdgood2Servlet</servlet-name>
+    <url-pattern>/Jdgood2Servlet</url-pattern>  
+  </servlet-mapping>
+  
+   <servlet-mapping> 
+    <servlet-name>Jdgood3Servlet</servlet-name>
+    <url-pattern>/Jdgood3Servlet</url-pattern>  
+  </servlet-mapping>
+    
+  <servlet-mapping> 
+    <servlet-name>JdproductServlet</servlet-name>
+    <url-pattern>/JdproductServlet</url-pattern>  
+  </servlet-mapping>
+   
+  <servlet-mapping>
+		<servlet-name>UserProductServlet</servlet-name>
+		<url-pattern>/UserProductServlet</url-pattern>
+  </servlet-mapping>       
+    
+  <servlet-mapping>
+		<servlet-name>JdadminServlet</servlet-name>
+		<url-pattern>/JdadminServlet</url-pattern>
+  </servlet-mapping>  
+   
+  
+  <servlet-mapping>
+    <servlet-name>JDDispatcherServlet</servlet-name>
+    <url-pattern>/JDDispatcherServlet</url-pattern>
+  </servlet-mapping>  
+	
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping> 
+	
+   <filter>
+   	<filter-name>MyCharacterFilter</filter-name>
+   	<filter-class>com.filter.MyCharacterFilter</filter-class>
+   </filter>
+   
+   <filter-mapping>
+   	<filter-name>MyCharacterFilter</filter-name>
+   	<url-pattern>/*</url-pattern>
+   </filter-mapping>
+</web-app>
